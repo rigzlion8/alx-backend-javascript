@@ -1,4 +1,4 @@
-const cleanSet = (set, startString) => {
+export default function cleanSet(set, startString) {
   const str = [];
 
   if (
@@ -16,6 +16,4 @@ const cleanSet = (set, startString) => {
   }
 
   return str.join('-');
-};
-
-export default cleanSet;
+}
