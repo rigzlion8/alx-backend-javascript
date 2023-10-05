@@ -8,7 +8,7 @@ export interface Teacher {
 }
 
 export interface Director extends Teacher {
-  numberOfReport: number,
+  numberOfReports: number,
 }
 
 export interface printTeacherFunction {
