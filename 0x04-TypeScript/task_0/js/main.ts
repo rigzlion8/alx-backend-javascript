@@ -21,17 +21,17 @@ export interface Student {
  */
 
 const student1: Student = {
-  firstName: 'John',
-  lastName: 'Doe',
-  age: 25,
+  firstName: 'Jack',
+  lastName: 'Sparrow',
+  age: 26,
   location: 'Nairobi',
 };
 
 const student2: Student = {
-  firstName: 'Alex',
-  lastName: 'Sanchez',
-  age: 29,
-  location: 'Cairo',
+  firstName: 'James',
+  lastName: 'Martinelli',
+  age: 28,
+  location: 'Ethiopia',
 };
 
 const studentsList: Array<Student> = [
