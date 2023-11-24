@@ -1,9 +1,10 @@
 const mocha = require('mocha');
 const { expect, assert } = require('chai');
-const { sinon, spy } = require('sinon');
+const sinon = require('sinon');
 
 const utils = require('./utils');
 const sendPaymentRequestToApi = require('./3-payment');
+const spy = require('sinon');
 
 describe('sendPaymentRequestToApi', () => {
   it('should call calculateNumber', () => {
